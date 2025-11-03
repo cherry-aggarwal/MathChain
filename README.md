@@ -12,25 +12,25 @@ A Streamlit-based educational blockchain implementation demonstrating core conce
 ## File Structure
 
 ```
-mathchain/
+MathChain/
 ├── src/
 │   ├── __init__.py
-│   ├── core/                    # Core blockchain components
+│   ├── core/                    
 │   │   ├── __init__.py
-│   │   ├── transaction.py       # Transaction data structure
-│   │   ├── block.py             # Block data structure
-│   │   └── blockchain.py        # Blockchain management
-│   ├── utils/                   # Utility functions
+│   │   ├── transaction.py       
+│   │   ├── block.py            
+│   │   └── blockchain.py        
+│   ├── utils/                
 │   │   ├── __init__.py
-│   │   └── merkle_tree.py       # Merkle tree computations
-│   └── ui/                      # Streamlit UI components
+│   │   └── merkle_tree.py       
+│   └── ui/                   
 │       ├── __init__.py
-│       ├── block_traversal.py   # Block viewing/editing UI
-│       ├── merkle_visualization.py  # Merkle tree visualization
-│       └── turing_system.py     # State transition UI
-├── app.py                       # Main application
-├── requirements.txt             # Python dependencies
-└── README.md                    # This file
+│       ├── block_traversal.py   
+│       ├── merkle_visualization.py
+│       └── turing_system.py   
+├── app.py                    
+├── requirements.txt            
+└── README.md                    
 ```
 
 ## Installation
